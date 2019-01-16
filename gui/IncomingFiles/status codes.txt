@@ -1,0 +1,5 @@
+404 - Error (kirmizi)
+100 - success (yesil)
+50 - working (turkuaz)
+0 - Pending (sari)
+-1 -Pending (sari)13:57 9.01.2019

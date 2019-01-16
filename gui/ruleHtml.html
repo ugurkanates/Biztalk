@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 150px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 250px;
+  right: 25px;
+  border: 3px solid #f1f1f1;
+  width: 300px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php" method="post" enctype="multipart/form-data" id="ruleForm">
+  
+  Job ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp
+  <input type="text" name="ruleID" value="">
+  <br><br>
+  
+  <label for="userName">User Name&nbsp&nbsp:</label>
+     <select name="userName" value="Select User">
+       <option value="Ayse">Ayse</option>
+       <option value="Fatma">Fatma</option>
+       <option value="Hayriye">Hayriye</option>
+     </select>
+  
+  
+  <br><br>
+  
+  Select rule file to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  
+  
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<button class="open-button" onclick="openForm()">Follows</button>
+
+<div class="form-popup" id="myForm" form="ruleForm">
+    <h1>Connect to Job</h1>
+
+    <label for="Job"><b>Job</b></label>
+     <select name="jobSelection" form="ruleForm">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="opel">Opel</option>
+       <option value="audi">Audi</option>
+     </select>
+    
+   <br><br>
+
+    <label for="jobDescription"><b>Job Description</b></label>
+    <input form="ruleForm" type="text" placeholder="Enter Job Description" name="jobDescription" required>
+  
+    <br><br>
+    <button type="button" class="btn btn-success" onclick="closeForm()">Close</button>
+</div>
+
+<script>
+function openForm2() {
+  document.getElementById("myForm2").style.display = "block";
+}
+
+function closeForm2() {
+  document.getElementById("myForm2").style.display = "none";
+}
+</script>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button1 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 150px;
+  left: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup1 {
+  display: none;
+  position: fixed;
+  bottom: 250px;
+  left: 25px;
+  border: 3px solid #f1f1f1;
+  width: 300px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container1 {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container1 input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container1 input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<button class="open-button1" onclick="openForm2()">LEADS TO</button>
+
+<div class="form-popup1" id="myForm2">
+  
+  <h1>Decision</h1>
+    <label for="yes"><b>YES :</b></label>
+     <select name="yesSelection" form="ruleForm">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="opel">Opel</option>
+       <option value="audi">Audi</option>
+     </select>
+  <br><br>
+    <label for="no"><b>NO :</b></label>
+     <select name="noSelection" form="ruleForm">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="opel">Opel</option>
+       <option value="audi">Audi</option>
+     </select>
+     <br><br>
+    <button type="button" class="btn btn-success" onclick="closeForm2()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+
+
+</body>
+</html>
+
+
+

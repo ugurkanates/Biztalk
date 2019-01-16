@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <log id="433">
+        <userID>user534</userID>
+        <level>INFO</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>5</day>
+        <hrs>17</hrs>
+        <min>58</min>
+        <sec>32</sec>
+        <detail>log details</detail>
+    </log>
+    <log id="433">
+        <userID>user534</userID>
+        <level>INFO</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>5</day>
+        <hrs>22</hrs>
+        <min>3</min>
+        <sec>19</sec>
+        <detail>log details</detail>
+    </log>
+    <log id="32131">
+        <userID>re23</userID>
+        <level>UPDATE</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>6</day>
+        <hrs>22</hrs>
+        <min>39</min>
+        <sec>0</sec>
+        <detail>This is log message</detail>
+    </log>
+    <log id="32131">
+        <userID>re23</userID>
+        <level>UPDATE</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>6</day>
+        <hrs>22</hrs>
+        <min>39</min>
+        <sec>4</sec>
+        <detail>This is log message</detail>
+    </log>
+    <log id="32131">
+        <userID>re23</userID>
+        <level>UPDATE</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>0</day>
+        <hrs>18</hrs>
+        <min>8</min>
+        <sec>1</sec>
+        <detail>This is log message</detail>
+    </log>
+    <log id="32131">
+        <userID>re23</userID>
+        <level>UPDATE</level>
+        <year>2018</year>
+        <month>10</month>
+        <day>0</day>
+        <hrs>18</hrs>
+        <min>24</min>
+        <sec>51</sec>
+        <detail>This is log message</detail>
+    </log>
+</company>

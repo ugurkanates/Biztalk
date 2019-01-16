@@ -1,0 +1,54 @@
+create schema if not exists biztalkdb collate utf8_turkish_ci;
+
+CREATE TABLE IF NOT EXISTS jobs
+(
+	JobId int auto_increment primary key,
+	JobOwner int default 0 not null,
+	Destination text not null,
+	FileUrl text not null,
+	Relatives text not null,
+	Status int default 0 not null,
+	RuleId int default 0 not null,
+	InsertDateTime datetime default '0000-00-00 00:00:00' not null,
+	UpdateDateTime datetime default '0000-00-00 00:00:00' not null,
+	Description text not null
+);
+
+CREATE TABLE IF NOT EXISTS orchestrations
+(
+	OrchestrationId int auto_increment primary key,
+	OrchestrationOwner int default 0 not null,
+	Status int default 0 not null,
+	StartingJobId int default 0 not null,
+	InsertDateTime datetime null,
+	UpdateDateTime datetime default '0000-00-00 00:00:00' not null
+);
+
+CREATE TABLE IF NOT EXISTS rules
+(
+	RuleId int auto_increment primary key,
+	RuleOwner int default 0 not null,
+	RuleQuery text not null,
+	YesEdge int default 0 not null,
+	NoEdge int default 0 not null,
+	RelativeResult text null
+);
+
+create schema if not exists biztalk_bre collate utf8_turkish_ci;
+
+CREATE TABLE IF NOT EXISTS responses
+(
+	Id int auto_increment primary key,
+	rule_id varchar(255) default '' not null,
+	user_id varchar(255) default '' not null,
+	answer varchar(1) default '' not null
+);
+
+CREATE TABLE IF NOT EXISTS rules
+(
+	Id int auto_increment primary key,
+	rule_id varchar(255) default '' not null,
+	clause text not null,
+	relatives text not null
+);
+

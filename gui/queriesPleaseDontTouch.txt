@@ -1,0 +1,10 @@
+//JOB QUERY
+
+SELECT *
+FROM jobs j
+LEFT JOIN (SELECT r.query, f1.startingNode, f1.reachingNode FROM followsEdge f1 LEFT JOIN rules r ON f1.reachingNode = r.id) f2 ON j.id = f2.startingNode
+
+//RULE QUERY
+SELECT *
+FROM orcRules r
+LEFT JOIN (SELECT l.reachingNode, l.startingNode, l.yesNoType FROM orcLeadsToEdge l LEFT JOIN orcJobs j ON l.reachingNode = j.id) f2 ON r.id = f2.startingNode ORDER BY startingNode
