@@ -3,6 +3,7 @@ import com.mysql.jdbc.JDBC4PreparedStatement;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 import io.vertx.core.Vertx;
+import io.vertx.core.VertxOptions;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
@@ -14,6 +15,8 @@ import java.io.IOException;
 import java.sql.*;
 
 import static java.sql.Statement.RETURN_GENERATED_KEYS;
+import static java.util.concurrent.TimeUnit.NANOSECONDS;
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class Server extends AbstractVerticle {
 
@@ -32,20 +35,8 @@ public class Server extends AbstractVerticle {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
-//		Connection conn;
-//		try {
-//			Class.forName(DRIVER);
-//			final String URI = DB_HOST + "/" + DB_NAME;
-//			conn = DriverManager.getConnection(URI, DB_USER, DB_PASS);
-//			System.out.println("Connected");
-//		} catch (SQLException | ClassNotFoundException e) {
-//			e.printStackTrace();
-//			System.exit(1);
-//			return;
-//		}
-
-		Vertx vertx = Vertx.vertx();
+		long maxBlockedThreadCheckInterval = NANOSECONDS.convert(10, SECONDS);
+		Vertx vertx = Vertx.vertx(new VertxOptions().setBlockedThreadCheckInterval(maxBlockedThreadCheckInterval));
 		vertx.deployVerticle(new Server());
 	}
 
@@ -86,7 +77,7 @@ public class Server extends AbstractVerticle {
 
 		router.put("/rule").handler(this::handlePutRole);
 		router.put("/rule/answer").handler(this::handlePutAnswer);
-//		router.put("/healthcheck").handler(this::handleHealthCheck);
+		router.put("/healthcheck").handler(this::handleHealthCheck);
 
 		vertx.createHttpServer().requestHandler(router).listen(5000);
 	}

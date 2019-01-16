@@ -1,10 +1,11 @@
 FROM php:7.2.12-apache-stretch
 
+# Install composer dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip libxml2-dev
+
 RUN docker-php-ext-install pdo pdo_mysql
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
-
-# Install composer dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip
+RUN docker-php-ext-install soap
 
 # Install composer
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"

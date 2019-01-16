@@ -1,0 +1,54 @@
+version: '3.7'
+
+services:
+
+  db:
+    hostname: db
+    build: ./db
+    restart: always
+    network_mode: host
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=my-secret-pw
+    volumes:
+      - ./db-data:/var/lib/mysql
+
+  bre:
+    hostname: bre
+    build: ./bre
+    network_mode: host
+    ports:
+      - 5000:5000
+    depends_on:
+      - db
+
+  log:
+    hostname: log
+    build: ./log/
+    network_mode: host
+    ports:
+      - 4000:4000
+    depends_on:
+      - db
+
+  gui:
+    hostname: gui
+    build: ./gui/
+    network_mode: host
+    ports:
+      - 80:80
+    depends_on:
+      - db
+
+  server:
+    hostname: server
+    build: ./server/
+    network_mode: host
+    ports:
+      - 9001:9001
+    depends_on:
+      - db
+
+volumes:
+  db-data:

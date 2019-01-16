@@ -2,46 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9326efdb-2211-49fa-a7aa-f0706711e784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gui/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gui/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BRE/BREClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/CSV_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/CSV_Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/LocalCSVMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/QueryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/QueryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/AdminAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/BizLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/LocalXmlMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/XmlElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/sample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/DBHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Orchestration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Rule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/MainProcess/MainProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/MainProcess/Publish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Approve/ApproveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Approve/requestApprove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/JobResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/OrchestrationCapsule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/OrchestrationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RuleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RulesAndJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RulesAndJobsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/IOrchestrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/OrchestrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/JobRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/OrchestrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/RuleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/StatusCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_codec_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_codec_dns_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_codec_http2_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_common_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_handler_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_resolver_dns_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_netty_netty_transport_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_vertx_vertx_auth_common_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_vertx_vertx_bridge_common_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_vertx_vertx_core_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_vertx_vertx_web_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__io_vertx_vertx_web_common_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/modules/log.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/modules/log.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../log/log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gui/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../gui/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../installer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../log/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../log/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../log/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/classes/java/main/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/classes/java/test/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/distributions/log.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/distributions/log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/libs/log.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/classes/AppTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/scripts/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/scripts/log.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/test-results/test/TEST-AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/Services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/Services/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uninstaller.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../uninstaller.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="216">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -75,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="288">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -87,13 +127,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="324">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bre.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="34" column="68" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -156,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -165,16 +216,41 @@
               <item name="bre" type="b2602c69:ProjectViewProjectNode" />
               <item name="bre" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="bre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bre" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bre" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="bre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bre" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bre" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547609378113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547645119511" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -245,12 +321,16 @@
       <workItem from="1547567224196" duration="3276000" />
       <workItem from="1547600942669" duration="1834000" />
       <workItem from="1547604113058" duration="4428000" />
-      <workItem from="1547620796138" duration="5663000" />
+      <workItem from="1547620796138" duration="7508000" />
+      <workItem from="1547629952244" duration="1373000" />
+      <workItem from="1547640470544" duration="1153000" />
+      <workItem from="1547643923935" duration="844000" />
+      <workItem from="1547646596960" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28789000" />
+    <option name="totallyTimeSpent" value="34191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,9 +343,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18594356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19479801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -274,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,13 +503,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="288">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bre.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -448,21 +544,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="324">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
           </folding>
         </state>
       </provider>

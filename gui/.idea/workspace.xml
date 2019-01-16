@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3170ff72-72a6-482e-90ca-1643ef3b50c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BRE/BREClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/CSV_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/CSV_Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/LocalCSVMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/QueryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/CSVUtils/QueryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/AdminAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/BizLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/Logger/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/LocalXmlMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/XmlElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/BizTalkLog/XMLUtils/sample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/DBHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Orchestration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/DB/Rule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/MainProcess/MainProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/MainProcess/Publish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Approve/ApproveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Approve/requestApprove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/JobResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/OrchestrationCapsule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/OrchestrationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RuleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RulesAndJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/InfoService/RulesAndJobsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/IOrchestrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/OrchestrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/JobRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/OrchestrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/Orchestration/Requests/RuleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/Services/StatusCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bre/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bre/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,16 +197,18 @@
       <updated>1547445459081</updated>
       <workItem from="1547445460266" duration="2688000" />
       <workItem from="1547625933352" duration="4000" />
+      <workItem from="1547627400263" duration="606000" />
+      <workItem from="1547641268013" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2692000" />
+    <option name="totallyTimeSpent" value="3314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14056447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1438849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,7 +221,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

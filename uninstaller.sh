@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker-compose -f graph.yml down
+docker-compose -f config.yml down
